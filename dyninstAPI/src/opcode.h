@@ -41,7 +41,6 @@ typedef enum {
    minusOp,
    timesOp,
    divOp,
-   modOp,
    lessOp,
    leOp,
    greaterOp,
@@ -76,6 +75,7 @@ typedef enum {
    branchOp,
    ifMCOp,
    xorOp,
+   modOp,
    undefOp
 } opCode;
 
