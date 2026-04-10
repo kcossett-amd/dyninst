@@ -41,6 +41,7 @@ typedef enum {
    minusOp,
    timesOp,
    divOp,
+   modOp,
    lessOp,
    leOp,
    greaterOp,
@@ -86,6 +87,7 @@ inline std::string format_opcode(opCode op) {
       case xorOp: return "xor";
       case timesOp: return "times";
       case divOp: return "div";
+      case modOp: return "mod";
       case lessOp: return "less";
       case leOp: return "le";
       case greaterOp: return "greater";
